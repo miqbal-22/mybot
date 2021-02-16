@@ -14,7 +14,7 @@ CFonts.say('\'YouTube:\' Iqbal XD', {
 })
 
 function start() {
-  let args = [path.join(__dirname, 'main.js'), ...process.argv.slice(2)]
+  let args = [path.join(__dirname, 'iqbal.js'), ...process.argv.slice(2)]
   CFonts.say([process.argv[0], ...args].join(' '), {
     font: 'console',
     align: 'center',
